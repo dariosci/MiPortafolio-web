@@ -1,0 +1,67 @@
+.estudios {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.container-estudios {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  line-height: 2.5rem;
+  font-size: large;
+}
+
+.cabecera{
+    font-style: italic;
+    font-size: 30px;
+}
+/* Media Queries agrupadas */
+
+/* Moviles (Pantallas pequeñas, hasta 767px) */
+@media (max-width: 767px) {
+  /* Agregando el responsivo para la seccion estudios */
+  .container-estudios {
+    width: 100%;
+    margin: 0rem;
+  }
+  .estudios {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: small;
+  }
+  .img-estudios {
+    width: 25%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  .detalle-estudios {
+    color: var(--black2);
+    font-size: 15px;
+    line-height: 32px;
+    margin-bottom: auto;
+  }
+}
+
+/* Tablets (Pantallas medianas, entre 768px y 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Agregando el responsivo para seccion estudios */
+  .estudios {
+    width: 100%;
+  }
+}
+
+/* Escritorio (Pantallas anchas, a partir de 1024px) */
+@media (min-width: 1024px) {
+  /* Agregando el responsivo para seccion estudios */
+  .estudios {
+    width: 100%;
+  }
+  .container-estudios-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+  }
+}

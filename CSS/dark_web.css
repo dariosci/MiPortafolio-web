@@ -1,0 +1,108 @@
+body.dark {
+  background: rgb(46, 46, 46);
+  color: ghostwhite;
+}
+body.dark .darkModeSwitch.active {
+  background: #313131;
+}
+body.dark .darkModeSwitch::after {
+  display: block;
+  background: #1b1b1b;
+}
+body.dark .entry-content img,
+body.dark .article.row-article .article-img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+body.dark .entry-content,
+body.dark .section-block,
+body.dark .section,
+body.dark .elementor-background-video-container,
+body.dark .featured,
+body.dark .title {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  color: white;
+}
+
+body.dark p {
+  color: ghostwhite;
+}
+
+body.dark pre {
+  background: #111;
+  box-shadow: none;
+}
+
+
+
+.proyecto h3,
+p {
+  color: black;
+}
+.container-sobremi.dark .misdatos {
+  color: black;
+}
+.container-sobremi.dark .tarjeta-sobremi {
+  background-color: ghostwhite;
+}
+.container-experiencia.dark .experiencia-periodo {
+  color: grey;
+}
+.container-experiencia.dark .tarjeta-experiencia {
+  background-color: ghostwhite;
+}
+.container-datosEXP.dark p.datos {
+  color: ghostwhite;
+}
+.container-datosEXP.dark p.datosp {
+  color: ghostwhite;
+}
+.container-datosHAB.dark p.datos {
+  color: ghostwhite;
+}
+.container-datosHAB.dark .skill-name {
+  color: ghostwhite;
+}
+.container-datosHAB.dark .skill-per::before {
+  color: black;
+}
+.btn-primary.dark {
+  margin-top: 10px;
+  background: black;
+}
+.formulario-contacto.dark label {
+  color: ghostwhite;
+}
+
+@media print {
+  body.dark {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background: none;
+  }
+  .container-datos.dark p.datosp {
+    color: rgb(0, 0, 0);
+  }
+
+  .container-datosES.dark p.datosp {
+    color: rgb(0, 0, 0);
+  }
+
+  .container-datosEXP.dark p.datos {
+    color: rgb(0, 0, 0);
+  }
+
+  .container-datosEXP.dark p.datosp {
+    color: rgb(0, 0, 0);
+  }
+
+  .container-datosHAB.dark p.datos {
+    color: rgb(0, 0, 0);
+  }
+
+  .container-datosHAB.dark .skill-name {
+    color: rgb(0, 0, 0);
+  }
+}
