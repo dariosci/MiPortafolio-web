@@ -1,4 +1,4 @@
-let url2 = 'https://raw.githubusercontent.com/dariosci/ProyectoFinal/main/JSON/estudios.json'
+let url2 = 'https://raw.githubusercontent.com/dariosci/MiPortafolio-web/refs/heads/main/JSON/estudios.json'
 
 const mostrarDatos = (data) => {
     //console.log(data)
@@ -35,7 +35,7 @@ fetch(url2)
 
     //estudio 1
     document.getElementById('estudio1').innerHTML = `${data2[0].course_name}` //nombre del estudio/curso
-    document.getElementById('nivel1').innerHTML = dificultad(`${data2[0].course_level}`) //la funcion dificultad traduce el nivel al español
+    document.getElementById('nivel1').innerHTML = dificultad(`${data2[0].course_instr}`) //la funcion dificultad traduce el nivel al español
     document.getElementById('link1').href = comprobar_linkcurso(`${data2[0].course_link}`, 1) //la funcion comprobar_linkcurso verifica que el link no esté vacio, si lo está elimina el icono de acceso directo al curso
     
     //estudio 2
