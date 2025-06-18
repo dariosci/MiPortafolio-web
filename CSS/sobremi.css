@@ -26,7 +26,11 @@
 .tarjeta-sobremi {
   display: flex; /* Habilitamos Flexbox para alinear los elementos internos */
   align-items: center; /* Centra verticalmente el logo y el contenido */
-  background-color: rgb(189, 186, 186); /* Fondo de la tarjeta, ajusta a tu paleta */
+  background-color: rgb(
+    189,
+    186,
+    186
+  ); /* Fondo de la tarjeta, ajusta a tu paleta */
   border-radius: 8px; /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
   padding: 20px; /* Espaciado interno */
@@ -35,14 +39,14 @@
 }
 
 /* Estilos para el contenedor foto-perfil */
-.foto-perfil { /* Evita que el logo se encoja */
+.foto-perfil {
+  /* Evita que el logo se encoja */
   flex-shrink: 0; /* Evita que el logo se encoja */
   width: 20rem; /* Ancho fijo para el contenedor del logo */
   height: auto; /* Alto fijo para el contenedor del logo */
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .foto-perfil img {
@@ -80,59 +84,66 @@
 }
 
 .icon {
-    position: relative;
-    width: 2rem;
-    height: 2rem;
-    margin: 0.5rem;
-    transition: all .8s;
-    cursor: pointer;
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  margin: 0.25rem;
+  transition: all 0.8s;
+  cursor: pointer;
+}
+
+.icon:hover i {
+  color: white;
 }
 
 .icon:hover {
-    background-color: #db804b;
-    box-shadow:  0 0 20px #8a5005 ;
+  color: white;
+  background-color: #db804b;
+  box-shadow: 0 0 20px #8a5005;
 }
-
 .icon:hover:nth-child(2) {
-    background-color: #1877f2;
-    box-shadow:  0 0 20px #1877f2;
+  color: white;
+  background-color: #1877f2;
+  box-shadow: 0 0 20px #1877f2;
 }
 
 .icon:hover:nth-child(3) {
-    background-color: #24a005;
-    box-shadow: 0 0 20px #25d366 ;
+  background-color: #24a005;
+  box-shadow: 0 0 20px #25d366;
 }
 
 .icon:hover:nth-child(4) {
-    background-color: #1da1f2;
-    box-shadow:  0 0 20px #1da1f2 ;
+  background-color: #1da1f2;
+  box-shadow: 0 0 20px #1da1f2;
 }
 
 .icon:hover:nth-child(5) {
-    background-color: #1773ac;
-    box-shadow:  0 0 20px #1da1f2 ;
+  background-color: #1773ac;
+  box-shadow: 0 0 20px #1da1f2;
+}
+
+.icon:hover:nth-child(6) {
+  background-color: #000000;
+  box-shadow: 0 0 20px #474747;
 }
 
 .icon i {
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 1rem;
+  color: #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
 }
 
 svg circle {
-    stroke-dasharray: 150;
-    transition: all .8s ease-in-out;
+  stroke-dasharray: 150;
+  transition: all 0.2s ease-in-out;
 }
 
 .icon:hover circle {
-    stroke-dasharray: 220;
+  stroke-dasharray: 220;
 }
-
-
-
 
 /* Media Queries agrupadas */
 
@@ -159,7 +170,7 @@ svg circle {
     text-align: center; /* Centra el texto cuando está apilado */
   }
 
-   .redes{
+  .redes {
     justify-content: center;
   }
 }
@@ -181,8 +192,6 @@ svg circle {
   .sobremi-contenido {
     text-align: center; /* Centra el texto cuando está apilado */
   }
-
- 
 }
 
 /* Escritorio (Pantallas anchas, a partir de 1024px) */

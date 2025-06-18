@@ -42,12 +42,13 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/27914132db.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Typed para multiple texto-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
   </head>
 
   <body id="page-top" class="todo">
@@ -122,11 +123,16 @@
                   <img src="./Assets/perfil.jpg" alt="" srcset="" />
                 </div>
                 <div class="sobremi-contenido">
-                  <h3 class="misdatos">
-                    Soy Dario Scilipoti, un apasionado desarrollador web con
-                    experiencia en HTML, CSS y JavaScript. Me encanta crear
-                    sitios web atractivos y funcionales.
-                  </h3>
+                  <div class="misdatos">
+                    <h3>Hola! Soy Dario Scilipoti</h3>
+
+                    <h4>
+                      <span class="multiple-text">Programador</span>
+                    </h4>
+                    <h4>
+                      Estudiante de la Tecnicatura Universitaria en Programación a distancia en la UTN Regional San Rafael.
+                    </h4>
+                  </div>
                   <div class="redes">
                     <div class="icon">
                       <a
@@ -153,8 +159,16 @@
                       ></a>
                     </div>
                     <div class="icon">
-                      <a href="https://x.com/darosc" target="_blank">
+                      <a
+                        href="https://www.linkedin.com/in/dario-scilipoti-279121254/"
+                        target="_blank"
+                      >
                         <i class="bx bxl-linkedin"></i
+                      ></a>
+                    </div>
+                    <div class="icon">
+                      <a href="https://github.com/dariosci/" target="_blank">
+                        <i class="bx bxl-github"></i
                       ></a>
                     </div>
                   </div>
@@ -251,13 +265,13 @@
                   <img src="./Assets/logo-hosp-392x84.png" alt="" srcset="" />
                 </div>
                 <div class="experiencia-contenido">
-                  <h3>
+                  <h4>
                     <a
                       href="https://hosplasheras.mendoza.gov.ar/"
                       target="_blank"
                       >Hospital Grl. Las Heras - Tupungato</a
                     >
-                  </h3>
+                  </h4>
                   <p class="experiencia-periodo">Marzo 2018-Presente</p>
                   <h4 class="experiencia-cargo">
                     Servicio de Computos: Analista Mayor
@@ -273,11 +287,11 @@
                   />
                 </div>
                 <div class="experiencia-contenido">
-                  <h3>
+                  <h4>
                     <a href="https://www.facebook.com/scilitec" target="_blank"
                       >Scilitec</a
                     >
-                  </h3>
+                  </h4>
                   <p class="experiencia-periodo">Abril 2017-Presente</p>
                   <h4 class="experiencia-cargo">Emprendimiento Propio</h4>
                 </div>
@@ -307,7 +321,7 @@
                   <div class="col-1 p-1 mb-1">
                     <p class="detalle-estudios cabecera"><b>Ver</b></p>
                   </div>
-                  <!--<div class="col-9 p-1 mb-1">
+                  <div class="col-9 p-1 mb-1">
                                     <p class="datosp textoizq"><span id="estudio1"></span></p>
                                 </div>
                                 <div class="col-2 p-1 mb-1"">
@@ -356,7 +370,7 @@
                                 <div class="col-1 p-1 mb-1"">
                                         <a href="" target=" _blank" rel="noopener noreferrer" id="link5"><i
                                         class="fa-solid fa-arrow-up-right-from-square" id="link-icono5"></i></a>
-                                </div>-->
+                                </div>
                 </div>
               </div>
             </article>
@@ -498,11 +512,28 @@
           switchButton.classList.toggle("active");
         });
       </script>
+      <script>
+        /* TYPE TEXT ANIMATION */
+        var typed = new Typed(".multiple-text", {
+          strings: [
+            "Desarrollador FullStack",
+            "Programador",
+            "Técnico",
+            "Administrador de Red",
+            "Analista",
+            "Gamer",
+          ],
+          typeSpeed: 50,
+          backSpeed: 100,
+          backDelay: 1000,
+          loop: true,
+        });
+      </script>
     </div>
   </body>
   <footer class="footer">
     <p class="copyright">
-      Dario Scilipoti &copy; 2023 Todos los derechos reservados
+      Dario Scilipoti &copy; 2025 Todos los derechos reservados
     </p>
   </footer>
 </html>

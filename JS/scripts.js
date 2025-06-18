@@ -1,3 +1,5 @@
+let url2 = 'https://raw.githubusercontent.com/dariosci/ProyectoFinal/main/JSON/estudios.json'
+
 const mostrarDatos = (data) => {
     //console.log(data)
     let fecnac = new Date(`22/11/1982`)
@@ -17,45 +19,45 @@ const mostrarDatos = (data) => {
 }
 
 //Trae datos de cursos de JSON (estudios.json) y toma 5 cursos al azar con su respectivo link
-// fetch(url2)
-//     .then((response) => response.json())
-//     .then(data2=> mostrarEstudios(data2))
-//     .catch(error => console.log(error)) 
+fetch(url2)
+    .then((response) => response.json())
+    .then(data2=> mostrarEstudios(data2))
+    .catch(error => console.log(error)) 
 
-//     //Genero 5 numeros aleatorios para mostrar 5 cursos distintos
-//     var min = 0;
-//     var max = 3499;
-//     var numerosEst = [];
+    //Genero 5 numeros aleatorios para mostrar 5 cursos distintos
+    // var min = 0;
+    // var max = 12;
+    // var numerosEst = [];
     
-//     numerosEst = generar_5numeros(min, max, numerosEst)
+    // numerosEst = generar_5numeros(min, max, numerosEst)
 
-//     const mostrarEstudios = (data2) => {
+    const mostrarEstudios = (data2) => {
 
-//     //estudio 1
-//     document.getElementById('estudio1').innerHTML = `${data2[numerosEst[0]].course_name}` //nombre del estudio/curso
-//     document.getElementById('nivel1').innerHTML = dificultad(`${data2[numerosEst[0]].course_level}`) //la funcion dificultad traduce el nivel al español
-//     document.getElementById('link1').href = comprobar_linkcurso(`${data2[numerosEst[0]].course_link}`, 1) //la funcion comprobar_linkcurso verifica que el link no esté vacio, si lo está elimina el icono de acceso directo al curso
+    //estudio 1
+    document.getElementById('estudio1').innerHTML = `${data2[0].course_name}` //nombre del estudio/curso
+    document.getElementById('nivel1').innerHTML = dificultad(`${data2[0].course_level}`) //la funcion dificultad traduce el nivel al español
+    document.getElementById('link1').href = comprobar_linkcurso(`${data2[0].course_link}`, 1) //la funcion comprobar_linkcurso verifica que el link no esté vacio, si lo está elimina el icono de acceso directo al curso
     
-//     //estudio 2
-//     document.getElementById('estudio2').innerHTML = `${data2[numerosEst[1]].course_name}`
-//     document.getElementById('nivel2').innerHTML = dificultad(`${data2[numerosEst[1]].course_level}`)
-//     document.getElementById('link2').href = comprobar_linkcurso(`${data2[numerosEst[1]].course_link}`, 2)
+    //estudio 2
+    document.getElementById('estudio2').innerHTML = `${data2[1].course_name}`
+    document.getElementById('nivel2').innerHTML = dificultad(`${data2[1].course_level}`)
+    document.getElementById('link2').href = comprobar_linkcurso(`${data2[1].course_link}`, 2)
 
-//     //estudio 3
-//     document.getElementById('estudio3').innerHTML = `${data2[numerosEst[2]].course_name}`
-//     document.getElementById('nivel3').innerHTML = dificultad(`${data2[numerosEst[2]].course_level}`)
-//     document.getElementById('link3').href = comprobar_linkcurso(`${data2[numerosEst[2]].course_link}`, 3)
+    //estudio 3
+    document.getElementById('estudio3').innerHTML = `${data2[2].course_name}`
+    document.getElementById('nivel3').innerHTML = dificultad(`${data2[2].course_level}`)
+    document.getElementById('link3').href = comprobar_linkcurso(`${data2[2].course_link}`, 3)
 
-//     //estudio 4
-//     document.getElementById('estudio4').innerHTML = `${data2[numerosEst[3]].course_name}`
-//     document.getElementById('nivel4').innerHTML = dificultad(`${data2[numerosEst[3]].course_level}`)
-//     document.getElementById('link4').href = comprobar_linkcurso(`${data2[numerosEst[3]].course_link}`, 4)
+    //estudio 4
+    document.getElementById('estudio4').innerHTML = `${data2[3].course_name}`
+    document.getElementById('nivel4').innerHTML = dificultad(`${data2[3].course_level}`)
+    document.getElementById('link4').href = comprobar_linkcurso(`${data2[3].course_link}`, 4)
 
-//     //estudio 5
-//     document.getElementById('estudio5').innerHTML = `${data2[numerosEst[4]].course_name}`
-//     document.getElementById('nivel5').innerHTML = dificultad(`${data2[numerosEst[4]].course_level}`)
-//     document.getElementById('link5').href = comprobar_linkcurso(`${data2[numerosEst[4]].course_link}`, 5)
-// }
+    //estudio 5
+    document.getElementById('estudio5').innerHTML = `${data2[4].course_name}`
+    document.getElementById('nivel5').innerHTML = dificultad(`${data2[4].course_level}`)
+    document.getElementById('link5').href = comprobar_linkcurso(`${data2[4].course_link}`, 5)
+}
 
 //Trae las skills del json (experiencias.json)..
 fetch(url3)
@@ -200,5 +202,4 @@ function comprobar_skill(skillNombre, skillcomp) { //comprobat si el skiil está
 function imprimirPagina() { //imprimir curriculum
     window.print();
 }
-
 

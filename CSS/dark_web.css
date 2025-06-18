@@ -46,6 +46,9 @@ p {
 .container-sobremi.dark i {  
   color: black;
 }
+.container-sobremi.dark i:hover {
+  color: white;
+}
 .container-sobremi.dark .tarjeta-sobremi {
   background-color: ghostwhite;
 }
