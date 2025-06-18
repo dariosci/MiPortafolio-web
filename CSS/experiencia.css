@@ -85,6 +85,7 @@
 
   .experiencia-logo {
     margin-bottom: 15px; /* Espacio debajo del logo cuando está apilado */
+    width: auto;
   }
 
   .experiencia-contenido {
