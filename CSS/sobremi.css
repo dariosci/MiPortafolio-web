@@ -75,7 +75,6 @@
   justify-content: right;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   cursor: pointer;
   flex-direction: row;
   /* font-size: 0.9em;
@@ -172,6 +171,7 @@ svg circle {
 
   .redes {
     justify-content: center;
+
   }
 }
 
