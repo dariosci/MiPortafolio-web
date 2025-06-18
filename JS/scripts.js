@@ -34,27 +34,28 @@ fetch(url2)
 
 const mostrarEstudios = (data2) => {
   //estudio 1
-//   for (let i = 0; i <= 12; i++) {
-//     document.getElementById("estudio"+(i+1)).innerHTML = `${data2[i].course_name}`; //nombre del estudio/curso
-//     document.getElementById("nivel"+(i+1)).innerHTML = dificultad(
-//       `${data2[i].course_instr}`
-//     ); //la funcion dificultad traduce el nivel al español
-//     document.getElementById("link"+(i+1)).href = comprobar_linkcurso(
-//       `${data2[i].course_link}`,
-//       1
-//     ); //la funcion comprobar_linkcurso verifica que el link no esté vacio, si lo está elimina el icono de acceso directo al curso
-//   }
-}
+  //   for (let i = 0; i <= 12; i++) {
+  //     document.getElementById("estudio"+(i+1)).innerHTML = `${data2[i].course_name}`; //nombre del estudio/curso
+  //     document.getElementById("nivel"+(i+1)).innerHTML = dificultad(
+  //       `${data2[i].course_instr}`
+  //     ); //la funcion dificultad traduce el nivel al español
+  //     document.getElementById("link"+(i+1)).href = comprobar_linkcurso(
+  //       `${data2[i].course_link}`,
+  //       1
+  //     ); //la funcion comprobar_linkcurso verifica que el link no esté vacio, si lo está elimina el icono de acceso directo al curso
+  //   }
+};
 
-document.addEventListener('DOMContentLoaded', function() {
-  let url2 = "https://raw.githubusercontent.com/dariosci/MiPortafolio-web/refs/heads/main/JSON/estudios.json";
+document.addEventListener("DOMContentLoaded", function () {
+  let url2 =
+    "https://raw.githubusercontent.com/dariosci/MiPortafolio-web/refs/heads/main/JSON/estudios.json";
 
-  const tbody = document.querySelector('#tabla-cursos tbody');
+  const tbody = document.querySelector("#tabla-cursos tbody");
   fetch(url2)
     .then((response) => response.json())
     .then((data2) => {
-      data2.forEach(curso => {
-        const tr = document.createElement('tr');
+      data2.forEach((curso) => {
+        const tr = document.createElement("tr");
         tr.innerHTML = `
           <td>
             <strong>${curso.course_name}</strong><br>
@@ -62,24 +63,19 @@ document.addEventListener('DOMContentLoaded', function() {
           </td>
           <td>${curso.course_date}</td>
           <td>${curso.course_totalHoras}</td>
-          <td>
-            ${curso.course_link ? `<a href="${curso.course_link}" target="_blank" title="Ver curso">
-              <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M6.354 5.5H3.5A1.5 1.5 0 0 0 2 7v6A1.5 1.5 0 0 0 3.5 14h6A1.5 1.5 0 0 0 11 12.5v-2.854a.5.5 0 0 1 1 0V12.5A2.5 2.5 0 0 1 9.5 15h-6A2.5 2.5 0 0 1 1 12.5v-6A2.5 2.5 0 0 1 3.5 4h2.854a.5.5 0 0 1 0 1z"/>
-                <path d="M11.354 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L12.5 2.707V10.5a.5.5 0 0 1-1 0V2.707L9.646 4.854a.5.5 0 1 1-.708-.708l3-3z"/>
-              </svg>
-            </a>` : ''}
+          <td>${curso.course_link? `<a href="${curso.course_link}" target="_blank" title="Ver curso">
+            <i class="fa-solid fa-arrow-up-right-from-square link-icono"></i>
+            </a>`: ""
+            }
           </td>
         `;
         tbody.appendChild(tr);
       });
     })
-    .catch(error => {
-      console.error('Error al cargar el JSON:', error);
+    .catch((error) => {
+      console.error("Error al cargar el JSON:", error);
     });
 });
-
-
 
 //   document.getElementById("estudio1").innerHTML = `${data2[0].course_name}`; //nombre del estudio/curso
 //   document.getElementById("nivel1").innerHTML = dificultad(
@@ -90,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
 //     1
 //   ); //la funcion comprobar_linkcurso verifica que el link no esté vacio, si lo está elimina el icono de acceso directo al curso
 
-  //estudio 2
+//estudio 2
 //   document.getElementById("estudio2").innerHTML = `${data2[1].course_name}`;
 //   document.getElementById("nivel2").innerHTML = dificultad(
 //     `${data2[1].course_level}`
@@ -100,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
 //     2
 //   );
 
-  //estudio 3
+//estudio 3
 //   document.getElementById("estudio3").innerHTML = `${data2[2].course_name}`;
 //   document.getElementById("nivel3").innerHTML = dificultad(
 //     `${data2[2].course_level}`
@@ -110,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
 //     3
 //   );
 
-  //estudio 4
+//estudio 4
 //   document.getElementById("estudio4").innerHTML = `${data2[3].course_name}`;
 //   document.getElementById("nivel4").innerHTML = dificultad(
 //     `${data2[3].course_level}`
@@ -120,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
 //     4
 //   );
 
-  //estudio 5
+//estudio 5
 //   document.getElementById("estudio5").innerHTML = `${data2[4].course_name}`;
 //   document.getElementById("nivel5").innerHTML = dificultad(
 //     `${data2[4].course_level}`

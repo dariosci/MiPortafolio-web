@@ -33,6 +33,11 @@
 #tabla-cursos td:nth-child(3) {
   text-align: center;
 }
+
+.link-icono {
+  font-size: 1.2em !important; /* Ajusta el tamaño según prefieras */
+  transition: font-size 0.2s;
+}
 /* Media Queries agrupadas */
 
 /* Moviles (Pantallas pequeñas, hasta 767px) */
@@ -58,6 +63,9 @@
     font-size: 15px;
     line-height: 32px;
     margin-bottom: auto;
+  }
+  .link-icono {
+    font-size: 1em;
   }
 }
 
