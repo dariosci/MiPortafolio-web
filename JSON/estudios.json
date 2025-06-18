@@ -5,7 +5,8 @@
     "course_link": "https://www.udemy.com/course/ielts-band-7-preparation-course/",
     "course_instr": "Argentina Programa 4.0 - Ticmas - Ministerio de Economía de la Nación",
     "course_date": "2023",
-    "course_totalHoras": "60"
+    "course_totalHoras": "60",
+    "course_fin": 1
   },
   {
     "": 1,
@@ -13,7 +14,8 @@
     "course_link": "https://www.udemy.com/course/el-metodo-spanish-1/",
     "course_instr": "Argentina Programa 4.0 - INTI - Ministerio de Economía de la Nación",
     "course_date": "2022",
-    "course_totalHoras": "60"
+    "course_totalHoras": "60",
+    "course_fin": 1
   },
   {
     "": 2,
@@ -21,7 +23,8 @@
     "course_link": "https://www.udemy.com/course/learn-english-grammar-upgrade-your-speaking-and-listening/",
     "course_instr": "Fundación Educativa Santísima Trinidad - Ministerio de Economía y Energia - Gobierno de Mendoza",
     "course_date": "2022",
-    "course_totalHoras": "300"
+    "course_totalHoras": "300",
+    "course_fin": 1
   },
   {
     "": 3,
@@ -29,7 +32,8 @@
     "course_link": "https://www.udemy.com/course/german-course-for-beginners-learn-german/",
     "course_instr": "Cognitive Class.ai - Powered by IBM",
     "course_date": "2022",
-    "course_totalHoras": "300"
+    "course_totalHoras": "300",
+    "course_fin": 1
   },
   {
     "": 4,
@@ -37,7 +41,8 @@
     "course_link": "https://www.udemy.com/course/3-minute-french-full-course-1/",
     "course_instr": "EXO Training Center - División Educación EXO S.A.",
     "course_date": "2023",
-    "course_totalHoras": "2"
+    "course_totalHoras": "2",
+    "course_fin": 1
   },
   {
     "": 5,
@@ -45,7 +50,8 @@
     "course_link": "https://www.udemy.com/course/complete-intensive-english-course-for-beginners/",
     "course_instr": "Argentina Programa 4.0 - Ticmas - Ministerio de Economía de la Nación",
     "course_date": "2023",
-    "course_totalHoras": "2"
+    "course_totalHoras": "2",
+    "course_fin": 1
   },
   {
     "": 6,
@@ -53,7 +59,8 @@
     "course_link": "https://www.udemy.com/course/mastering-ielts-writing-task-2/",
     "course_instr": "Fundación Educativa Santísima Trinidad - Ministerio de Economía y Energia - Gobierno de Mendoza",
     "course_date": "2023",
-    "course_totalHoras": "63"
+    "course_totalHoras": "63",
+    "course_fin": 1
   },
   {
     "": 7,
@@ -61,7 +68,8 @@
     "course_link": "https://www.udemy.com/course/integralcalc-algebra/",
     "course_instr": "Fundación Educativa Santísima Trinidad - Ministerio de Economía y Energia - Gobierno de Mendoza",
     "course_date": "2023",
-    "course_totalHoras": "63"
+    "course_totalHoras": "63",
+    "course_fin": 1
   },
   {
     "": 8,
@@ -69,7 +77,8 @@
     "course_link": "https://www.udemy.com/course/calculus1/",
     "course_instr": "Fundación Educativa Santísima Trinidad - Ministerio de Economía y Energia - Gobierno de Mendoza",
     "course_date": "2023",
-    "course_totalHoras": "84"
+    "course_totalHoras": "84",
+    "course_fin": 1
   },
   {
     "": 9,
@@ -77,7 +86,8 @@
     "course_link": "https://www.udemy.com/course/level-1-intelligence-analyst-certification/",
     "course_instr": "Colegio 65-p ECEA",
     "course_date": "1994",
-    "course_totalHoras": "48"
+    "course_totalHoras": "48",
+    "course_fin": 1
   },
   {
     "": 10,
@@ -85,7 +95,8 @@
     "course_link": "https://www.udemy.com/course/statistics-probability/",
     "course_instr": "Centro de Capacitación para el trabajo Nº 6-205",
     "course_date": "1997",
-    "course_totalHoras": "40"
+    "course_totalHoras": "40",
+    "course_fin": 1
   },
   {
     "": 11,
@@ -93,7 +104,8 @@
     "course_link": "https://www.udemy.com/course/be-comfortable-and-confident-on-camera/",
     "course_instr": "Centro de Capacitación para el Trabajo N° 6-205",
     "course_date": "1998",
-    "course_totalHoras": "48"
+    "course_totalHoras": "48",
+    "course_fin": 1
   },
   {
     "": 12,
@@ -101,6 +113,7 @@
     "course_link": "https://www.udemy.com/course/spanish-101-beginning-spanish-spanish-for-beginners/",
     "course_instr": "Centro de Capacitación para el Trabajo N° 6-205",
     "course_date": "2000",
-    "course_totalHoras": "56"
+    "course_totalHoras": "56",
+    "course_fin": 1
   }
 ]
