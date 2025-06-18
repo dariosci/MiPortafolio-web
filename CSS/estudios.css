@@ -16,6 +16,23 @@
     font-style: italic;
     font-size: 30px;
 }
+
+#tabla-cursos th,
+#tabla-cursos td {
+  padding: 0.5rem 0.3rem;
+  text-align: left;
+}
+
+#tabla-cursos td:last-child {
+  text-align: center;
+}
+
+#tabla-cursos th:nth-child(2),
+#tabla-cursos th:nth-child(3),
+#tabla-cursos td:nth-child(2),
+#tabla-cursos td:nth-child(3) {
+  text-align: center;
+}
 /* Media Queries agrupadas */
 
 /* Moviles (Pantallas pequeñas, hasta 767px) */
