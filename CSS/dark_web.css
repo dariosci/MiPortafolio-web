@@ -40,7 +40,10 @@ body.dark pre {
 p {
   color: black;
 }
-.container-sobremi.dark .misdatos {
+.container-sobremi.dark .misdatos {  
+  color: black;
+}
+.container-sobremi.dark i {  
   color: black;
 }
 .container-sobremi.dark .tarjeta-sobremi {
