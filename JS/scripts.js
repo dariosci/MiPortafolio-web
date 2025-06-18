@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <span>${curso.course_instr}</span>
           </td>
           <td>${curso.course_date}</td>
-          <td>${curso.course_totalHours}</td>
+          <td>${curso.course_totalHoras}</td>
           <td>
             ${curso.course_link ? `<a href="${curso.course_link}" target="_blank" title="Ver curso">
               <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
