@@ -254,19 +254,6 @@ textarea {
     font-size: 16px;
 }
 
-th{
-    font-style: italic;
-    font-size: medium;
-}
-
-.instituto-class {
-    font-style: italic;
-}
-
-.multiple-text {
-    font-family: monospace;
-}
-
 @keyframes fillBars {
     from {
         width: 0;

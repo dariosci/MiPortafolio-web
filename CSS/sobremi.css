@@ -70,7 +70,9 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-
+.multiple-text {
+    font-family: monospace;
+}
 .redes {
   justify-content: right;
   display: flex;

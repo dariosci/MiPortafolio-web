@@ -12,9 +12,9 @@
   font-size: large;
 }
 
-.cabecera{
-    font-style: italic;
-    font-size: 30px;
+.cabecera {
+  font-style: italic;
+  font-size: 30px;
 }
 
 #tabla-cursos th,
@@ -33,11 +33,14 @@
 #tabla-cursos td:nth-child(3) {
   text-align: center;
 }
-
+th {
+  font-style: italic;
+}
 .link-icono {
   font-size: 1.2em !important; /* Ajusta el tamaño según prefieras */
   transition: font-size 0.2s;
 }
+
 /* Media Queries agrupadas */
 
 /* Moviles (Pantallas pequeñas, hasta 767px) */
@@ -67,6 +70,16 @@
   .link-icono {
     font-size: 1em;
   }
+  th {
+    font-size: large;
+  }
+  td {
+    font-size: small;
+  }
+
+  .instituto-class {
+    font-style: italic;
+  }
 }
 
 /* Tablets (Pantallas medianas, entre 768px y 1023px) */
@@ -74,6 +87,18 @@
   /* Agregando el responsivo para seccion estudios */
   .estudios {
     width: 100%;
+  }
+  #tabla-cursos th:nth-child(2),
+  #tabla-cursos th:nth-child(3),
+  #tabla-cursos td:nth-child(2),
+  #tabla-cursos td:nth-child(3) {
+    font-size: medium;
+  }
+  td {
+    font-size: medium;
+  }
+  th {
+    font-size: large;
   }
 }
 
@@ -88,5 +113,11 @@
     align-items: center;
     width: 100%;
     gap: 2rem;
+  }
+  th {
+    font-size: large;
+  }
+  td {
+    font-size: large;
   }
 }
