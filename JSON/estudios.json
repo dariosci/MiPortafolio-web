@@ -1,87 +1,6 @@
 [
   {
     "": 0,
-    "course_name": "Primeros pasos del desarrollo frontend",
-    "course_link": "#",
-    "course_instr": "Argentina Programa 4.0 - Ticmas - Ministerio de Economía de la Nación",
-    "course_date": "2023",
-    "course_totalHoras": "60",
-    "course_fin": 1
-  },
-  {
-    "": 1,
-    "course_name": "#SeProgramar",
-    "course_link": "#",
-    "course_instr": "Argentina Programa 4.0 - INTI - Ministerio de Economía de la Nación",
-    "course_date": "2022",
-    "course_totalHoras": "60",
-    "course_fin": 1
-  },
-  {
-    "": 2,
-    "course_name": "Curso Programación PYTHON",
-    "course_link": "#",
-    "course_instr": "Fundación Educativa Santísima Trinidad - Ministerio de Economía y Energia - Gobierno de Mendoza",
-    "course_date": "2022",
-    "course_totalHoras": "300",
-    "course_fin": 1
-  },
-  {
-    "": 3,
-    "course_name": "Python 101 fot Data Science",
-    "course_link": "#",
-    "course_instr": "Cognitive Class.ai - Powered by IBM",
-    "course_date": "2022",
-    "course_totalHoras": "300",
-    "course_fin": 1
-  },
-  {
-    "": 4,
-    "course_name": "MS-AZ-800.ADMINISTERING WINDOWS SERVER HYBRID CORE INFRASTRUCTURE",
-    "course_link": "#",
-    "course_instr": "EXO Training Center - División Educación EXO S.A.",
-    "course_date": "2023",
-    "course_totalHoras": "2",
-    "course_fin": 1
-  },
-  {
-    "": 5,
-    "course_name": "Desarrollo de Aplicaciones Móviles",
-    "course_link": "#",
-    "course_instr": "Argentina Programa 4.0 - Ticmas - Ministerio de Economía de la Nación",
-    "course_date": "2023",
-    "course_totalHoras": "2",
-    "course_fin": 1
-  },
-  {
-    "": 6,
-    "course_name": "CURSO INGLÉS TIC NIVEL 1 - Traducción desde la gramática estructural",
-    "course_link": "#",
-    "course_instr": "Fundación Educativa Santísima Trinidad - Ministerio de Economía y Energia - Gobierno de Mendoza",
-    "course_date": "2023",
-    "course_totalHoras": "63",
-    "course_fin": 1
-  },
-  {
-    "": 7,
-    "course_name": "CURSO INGLÉS TIC NIVEL 2 - Competencias comunicativas: desde la expresión personal a la comunicación del rol profesional",
-    "course_link": "#",
-    "course_instr": "Fundación Educativa Santísima Trinidad - Ministerio de Economía y Energia - Gobierno de Mendoza",
-    "course_date": "2023",
-    "course_totalHoras": "63",
-    "course_fin": 1
-  },
-  {
-    "": 8,
-    "course_name": "CURSO INGLÉS TIC NIVEL 3 - “El proceso comunicativo en el rol profesional",
-    "course_link": "#",
-    "course_instr": "Fundación Educativa Santísima Trinidad - Ministerio de Economía y Energia - Gobierno de Mendoza",
-    "course_date": "2023",
-    "course_totalHoras": "84",
-    "course_fin": 1
-  },
-  {
-    "": 9,
     "course_name": "Operador de PC",
     "course_link": "#",
     "course_instr": "Colegio 65-p ECEA",
@@ -90,7 +9,7 @@
     "course_fin": 1
   },
   {
-    "": 10,
+    "": 1,
     "course_name": "MS Works para Windows",
     "course_link": "#",
     "course_instr": "Centro de Capacitación para el trabajo Nº 6-205",
@@ -99,7 +18,7 @@
     "course_fin": 1
   },
   {
-    "": 11,
+    "": 2,
     "course_name": "MS Office 97",
     "course_link": "#",
     "course_instr": "Centro de Capacitación para el Trabajo N° 6-205",
@@ -108,12 +27,94 @@
     "course_fin": 1
   },
   {
-    "": 12,
+    "": 3,
     "course_name": "MS Office 2000",
     "course_link": "#",
     "course_instr": "Centro de Capacitación para el Trabajo N° 6-205",
     "course_date": "2000",
     "course_totalHoras": "56",
+    "course_fin": 1
+  },
+  {
+    "": 4,
+    "course_name": "#SeProgramar",
+    "course_link": "#",
+    "course_instr": "Argentina Programa 4.0 - INTI - Ministerio de Economía de la Nación",
+    "course_date": "2022",
+    "course_totalHoras": "60",
+    "course_fin": 1
+  },
+  {
+    "": 5,
+    "course_name": "Curso Programación PYTHON",
+    "course_link": "#",
+    "course_instr": "Fundación Educativa Santísima Trinidad - Ministerio de Economía y Energia - Gobierno de Mendoza",
+    "course_date": "2022",
+    "course_totalHoras": "300",
+    "course_fin": 1
+  },
+  {
+    "": 6,
+    "course_name": "Python 101 fot Data Science",
+    "course_link": "#",
+    "course_instr": "Cognitive Class.ai - Powered by IBM",
+    "course_date": "2022",
+    "course_totalHoras": "300",
+    "course_fin": 1
+  },
+  {
+    "": 7,
+    "course_name": "Primeros pasos del desarrollo frontend",
+    "course_link": "#",
+    "course_instr": "Argentina Programa 4.0 - Ticmas - Ministerio de Economía de la Nación",
+    "course_date": "2023",
+    "course_totalHoras": "60",
+    "course_fin": 1
+  },
+  
+  {
+    "": 8,
+    "course_name": "MS-AZ-800.ADMINISTERING WINDOWS SERVER HYBRID CORE INFRASTRUCTURE",
+    "course_link": "#",
+    "course_instr": "EXO Training Center - División Educación EXO S.A.",
+    "course_date": "2023",
+    "course_totalHoras": "2",
+    "course_fin": 1
+  },
+  {
+    "": 9,
+    "course_name": "Desarrollo de Aplicaciones Móviles",
+    "course_link": "#",
+    "course_instr": "Argentina Programa 4.0 - Ticmas - Ministerio de Economía de la Nación",
+    "course_date": "2023",
+    "course_totalHoras": "2",
+    "course_fin": 1
+  },
+  {
+    "": 10,
+    "course_name": "CURSO INGLÉS TIC NIVEL 1 - Traducción desde la gramática estructural",
+    "course_link": "#",
+    "course_instr": "Fundación Educativa Santísima Trinidad - Ministerio de Economía y Energia - Gobierno de Mendoza",
+    "course_date": "2023",
+    "course_totalHoras": "63",
+    "course_fin": 1
+  },
+  {
+    "": 11,
+    "course_name": "CURSO INGLÉS TIC NIVEL 2 - Competencias comunicativas: desde la expresión personal a la comunicación del rol profesional",
+    "course_link": "#",
+    "course_instr": "Fundación Educativa Santísima Trinidad - Ministerio de Economía y Energia - Gobierno de Mendoza",
+    "course_date": "2023",
+    "course_totalHoras": "63",
+    "course_fin": 1
+  },
+  {
+    "": 12,
+    "course_name": "CURSO INGLÉS TIC NIVEL 3 - “El proceso comunicativo en el rol profesional",
+    "course_link": "#",
+    "course_instr": "Fundación Educativa Santísima Trinidad - Ministerio de Economía y Energia - Gobierno de Mendoza",
+    "course_date": "2023",
+    "course_totalHoras": "84",
     "course_fin": 1
   }
 ]
