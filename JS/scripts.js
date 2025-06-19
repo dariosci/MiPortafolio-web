@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
         tr.innerHTML = `
           <td>
             <strong>${curso.course_name}</strong><br>
-            <span>${curso.course_instr}</span>
+            <span class="instituto-class">${curso.course_instr}</span>
           </td>
           <td>${curso.course_date}</td>
           <td>${curso.course_totalHoras}</td>

@@ -66,66 +66,10 @@ nav.navbar.navbar.navbar-dark{
     font-weight: 700;
 }
 
-/* .border-bottom{
-    border-bottom: 1px solid #dee2e6!important
-} */
-
 .title {
     font-size: 56px;
     align-items: center;    
 }
-
-/* h2.title{
-    color: black;
-    font-size: 2.5rem;
-} */
-/* .title--active {
-    color: var(--gold1);
-    font-weight: 700;
-} */
-
-/* .subtitle {
-    font-size: 42px;
-} */
-
-/* .container-ES {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 0;
-} */
-
-/* .container-datosHAB {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 0;
-} */
-
-/* .datos {
-    color: var(--black2);
-    font-size: 22px;
-    line-height: 32px;
-    margin-bottom: 60px;
-} */
-
-/* .datosp {
-    
-    color: var(--black2);
-    font-size: 22px;
-    line-height: 32px;
-    margin-bottom: 10px;
-    width: 100%;
-    
-} */
-
-/* .datos-conocimientos{
-    margin: 0;
-} */
 
 .textoizq{
     text-align: left;
@@ -231,6 +175,7 @@ nav.navbar.navbar.navbar-dark{
     margin: 0;
 }
 .copyright{
+    color: white;
     height: 30px;
     margin: 0;
 }
@@ -309,6 +254,19 @@ textarea {
     font-size: 16px;
 }
 
+th{
+    font-style: italic;
+    font-size: medium;
+}
+
+.instituto-class {
+    font-style: italic;
+}
+
+.multiple-text {
+    font-family: monospace;
+}
+
 @keyframes fillBars {
     from {
         width: 0;
@@ -352,14 +310,6 @@ textarea {
         padding-top: 1rem;
     }
     
-    /* .datos {
-        color: var(--black2);
-        font-size: 15px;
-        line-height: 32px;
-        margin-bottom: 30px;
-    } */
-   
-
     .container-bg {
         justify-content: space-evenly;
     }
