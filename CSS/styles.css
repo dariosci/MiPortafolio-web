@@ -3,6 +3,7 @@
 @import "./experiencia.css";
 @import "./estudios.css";
 @import "./proyectos.css";
+@import "./contacto.css";
 
 :root {
     --gold1: #F4BD76;
