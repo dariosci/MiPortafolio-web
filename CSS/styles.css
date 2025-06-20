@@ -4,6 +4,7 @@
 @import "./estudios.css";
 @import "./proyectos.css";
 @import "./contacto.css";
+@import "./footer.css";
 
 :root {
     --gold1: #F4BD76;
@@ -165,20 +166,6 @@ nav.navbar.navbar.navbar-dark{
     text-align: center;
     margin-top: 5px;
     font-size: 25px;
-}
-
-.footer{
-    text-align: center;
-    color: #fafafa;
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
-.copyright{
-    color: white;
-    height: 30px;
-    margin: 0;
 }
 
 .skills {

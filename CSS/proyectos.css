@@ -16,9 +16,13 @@
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+
 }
 
 .proyecto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: rgb(189, 186, 186); /* Color de fondo de la tarjeta */
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -59,6 +63,11 @@
   text-decoration: none; /* Elimina el subrayado del enlace */
   color: white;
 }
+
+.botones-proyectos {
+  margin-top: auto;
+}
+
 .darkModeSwitch .proyecto p{
   color: black;
 }
