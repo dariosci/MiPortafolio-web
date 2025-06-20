@@ -61,25 +61,3 @@ document.addEventListener("DOMContentLoaded", function () {
       console.error("Error al cargar el JSON:", error);
     });
 });
-
-// Selecciona todos los enlaces del navbar
-const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
-
-navLinks.forEach((link) => {
-  link.addEventListener("click", function () {
-    // Quita la clase 'active' de todos los enlaces
-    navLinks.forEach((l) => l.classList.remove("active"));
-    // Agrega la clase 'active' al enlace clickeado
-    this.classList.add("active");
-  });
-});
-
-// Opcional: resalta la opción según el hash al recargar la página
-window.addEventListener("DOMContentLoaded", () => {
-  const hash = window.location.hash;
-  if (hash) {
-    navLinks.forEach((link) => {
-      link.classList.toggle("active", link.getAttribute("href") === hash);
-    });
-  }
-});
