@@ -15,5 +15,39 @@
 iframe {
   border: none;
   width: 85vw;
-  height: 20rem;
+  height: 84rem;
 }
+
+/* Media Queries agrupadas */
+@media (max-width: 767px) {
+  .contacto {
+    display:contents;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem; /* margen a lo alto */
+    line-height: 2.5rem; /* espaciado entre los parrafos del texto */
+    font-size: small;
+  }
+ iframe {
+  border: none;
+  width: 100vw;
+  height: 100rem;
+}
+}
+/* Tablets (Pantallas medianas, entre 768px y 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  iframe {
+  border: none;
+  width: 85vw;
+  height: 84rem;
+}
+}
+/* Escritorio (Pantallas anchas, a partir de 1024px) */
+@media (min-width: 1024px) {
+  iframe {
+  border: none;
+  width: 85vw;
+  height: 84rem;
+}
+}
+

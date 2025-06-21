@@ -64,6 +64,10 @@
             ><span class="titulonavbar">mi</span
             ><span class="titulonavbar2">Portafolio</span></a
           >
+          <button class="darkModeSwitch ms-2 me-2 d-lg-none" id="switch-mobile">
+      <span><i class="bx bx-sun"></i></span>
+      <span><i class="bx bx-moon"></i></span>
+    </button>
           <button
             class="navbar-toggler"
             type="button"
@@ -103,10 +107,10 @@
                 >
               </li>
             </ul>
-            <button class="darkModeSwitch ms-2 fixed-right" id="switch">
-              <span><i class="bx bx-sun"></i></span>
-              <span><i class="bx bx-moon"></i></span>
-            </button>
+            <button class="darkModeSwitch ms-2 d-none d-lg-inline" id="switch-desktop">
+        <span><i class="bx bx-sun"></i></span>
+        <span><i class="bx bx-moon"></i></span>
+      </button>
           </div>
         </div>
       </nav>
@@ -367,7 +371,7 @@
             </div>
           </div>
         </section>
-
+        <!-- FORMAULARIO DE CONTACTO SIN GOOGLE FORMS-->
         <!--</section>
         <div class="contacto-print">
           <section id="contacto" class="py-5">
@@ -1253,6 +1257,27 @@
         switchButton.classList.toggle("active");
       });
     </script>
+    <script>
+  function toggleDarkMode() {
+    document.body.classList.toggle("dark");
+    document.getElementById("switch-mobile")?.classList.toggle("active");
+    document.getElementById("switch-desktop")?.classList.toggle("active");
+  }
+
+  document.getElementById("switch-mobile")?.addEventListener("click", toggleDarkMode);
+  document.getElementById("switch-desktop")?.addEventListener("click", toggleDarkMode);
+</script>
+<script>
+  document.querySelectorAll('.navbar-nav .nav-link').forEach(function(link) {
+    link.addEventListener('click', function() {
+      const navbarCollapse = document.getElementById('navbarResponse');
+      if (navbarCollapse.classList.contains('show')) {
+        const collapse = new bootstrap.Collapse(navbarCollapse, {toggle: false});
+        collapse.hide();
+      }
+    });
+  });
+</script>
     <script>
       /* TYPE TEXT ANIMATION */
       var typed = new Typed(".multiple-text", {
