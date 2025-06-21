@@ -73,7 +73,8 @@
 .multiple-text {
     font-family: monospace;
 }
-.redes {
+
+.redes-sobremi {
   justify-content: right;
   display: flex;
   align-items: center;
@@ -170,11 +171,10 @@ svg circle {
   .sobremi-contenido {
     text-align: center; /* Centra el texto cuando está apilado */
   }
-
-  .redes {
+  .redes-sobremi{
     justify-content: center;
-
   }
+  
 }
 
 /* Tablets (Pantallas medianas, entre 768px y 1023px) */
@@ -194,11 +194,18 @@ svg circle {
   .sobremi-contenido {
     text-align: center; /* Centra el texto cuando está apilado */
   }
+  .redes-sobremi{
+    justify-content: center;
+  }
+  
 }
 
 /* Escritorio (Pantallas anchas, a partir de 1024px) */
 @media (min-width: 1024px) {
   .container-sobremi {
     width: 100%;
+  }
+  .redes-sobremi{
+    justify-content: right;
   }
 }
