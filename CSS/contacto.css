@@ -14,8 +14,8 @@
 
 iframe {
   border: none;
-  width: 85vw;
-  height: 84rem;
+  width: 85rem;
+  height: 100rem;
 }
 
 /* Media Queries agrupadas */
@@ -30,7 +30,7 @@ iframe {
   }
  iframe {
   border: none;
-  width: 100vw;
+  width: 20rem;
   height: 100rem;
 }
 }
@@ -38,15 +38,15 @@ iframe {
 @media (min-width: 768px) and (max-width: 1023px) {
   iframe {
   border: none;
-  width: 85vw;
-  height: 84rem;
+  width: 40rem;
+  height: 85rem;
 }
 }
 /* Escritorio (Pantallas anchas, a partir de 1024px) */
 @media (min-width: 1024px) {
   iframe {
   border: none;
-  width: 85vw;
+  width: 60rem;
   height: 84rem;
 }
 }
