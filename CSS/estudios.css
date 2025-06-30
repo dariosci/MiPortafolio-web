@@ -21,7 +21,7 @@
 #tabla-cursos th,
 #tabla-cursos td {
   padding: 0.5rem 0.3rem;
-  text-align: left;
+  /*text-align: left;*/
 }
 
 #tabla-cursos td:last-child {
