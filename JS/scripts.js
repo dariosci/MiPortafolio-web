@@ -2,11 +2,14 @@ let url2 =
   "https://raw.githubusercontent.com/dariosci/MiPortafolio-web/refs/heads/main/JSON/estudios.json";
 
 //Trae datos de cursos de JSON (estudios.json) y toma 5 cursos al azar con su respectivo link
-fetch(url2)
+//fetch(url2)
+//  .then((response) => response.json())
+//  .then((data2) => mostrarEstudios(data2))
+//  .catch((error) => console.log(error));
+fetch("./JSON/estudios.json")
   .then((response) => response.json())
   .then((data2) => mostrarEstudios(data2))
   .catch((error) => console.log(error));
-
 //Genero 5 numeros aleatorios para mostrar 5 cursos distintos
 // var min = 0;
 // var max = 12;
